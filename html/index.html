@@ -1,28 +1,127 @@
-<main id="mod-list">
-  <!-- Kafelki modów -->
-</main>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Funky Friday List</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1>Funky Friday List</h1>
+    <p class="text-muted">Wybierz moda, aby zobaczyć piosenki i rankingi</p>
+  </header>
 
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("mods.json")
-    .then(res => res.json())
-    .then(mods => {
-      const container = document.getElementById("mod-list");
+  <main class="container" role="main">
+    <div id="mod-grid" class="mod-grid" aria-live="polite"></div>
+    <div id="error" class="center text-muted" style="display:none; margin-top:1.5rem;"></div>
+  </main>
 
-      mods.forEach(mod => {
-        const card = document.createElement("div");
-        card.className = "mod-card";
-        card.onclick = () => {
-          window.location.href = `mod.html?mod=${encodeURIComponent(mod.folder)}`;
-        };
+  <footer class="center" role="contentinfo" style="padding:1rem 0;">
+    <small class="text-muted">Made by Kuboiks</small>
+  </footer>
 
-        card.innerHTML = `
-          <div class="mod-name">${mod.mod}</div>
-          <div class="mod-description">${mod.description || "Mod z Funky Friday"}</div>
-        `;
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const grid = document.getElementById("mod-grid");
+      const errorEl = document.getElementById("error");
 
-        container.appendChild(card);
-      });
+      fetch("data/mods.json")
+        .then(res => {
+          if (!res.ok) throw new Error("Nie można załadować mods.json");
+          return res.json();
+        })
+        .then(mods => {
+          if (!Array.isArray(mods) || mods.length === 0) {
+            errorEl.textContent = "Brak modów w data/mods.json";
+            errorEl.style.display = "block";
+            return;
+          }
+
+          mods.forEach(mod => {
+            const card = document.createElement("button");
+            card.className = "mod-card";
+            card.type = "button";
+            card.setAttribute("aria-label", `Otwórz moda ${mod.mod}`);
+            card.tabIndex = 0;
+
+            // apply accent color if provided
+            if (mod.color) {
+              card.style.borderColor = mod.color;
+            }
+
+            const icon = document.createElement("div");
+            icon.className = "mod-icon";
+            icon.textContent = mod.icon || mod.mod.charAt(0);
+            if (mod.color) {
+              icon.style.background = `linear-gradient(135deg, ${mod.color}33, ${mod.color}1a)`;
+            }
+
+            const name = document.createElement("div");
+            name.className = "mod-name";
+            name.textContent = mod.mod;
+
+            const desc = document.createElement("div");
+            desc.className = "mod-desc";
+            desc.textContent = mod.description || "";
+
+            const actions = document.createElement("div");
+            actions.className = "mod-actions";
+
+            const openBtn = document.createElement("button");
+            openBtn.className = "btn";
+            openBtn.textContent = "Otwórz";
+            openBtn.addEventListener("click", (e) => {
+              e.stopPropagation();
+              window.location.href = `mod.html?mod=${encodeURIComponent(mod.folder)}`;
+            });
+
+            const infoBtn = document.createElement("button");
+            infoBtn.className = "btn secondary";
+            infoBtn.textContent = "Info";
+            infoBtn.addEventListener("click", (e) => {
+              e.stopPropagation();
+              alert(`${mod.mod}\n\n${mod.description || "Brak opisu"}`);
+            });
+
+            actions.appendChild(infoBtn);
+            actions.appendChild(openBtn);
+
+            // assemble card
+            const meta = document.createElement("div");
+            meta.className = "mod-meta";
+            meta.appendChild(icon);
+
+            const metaText = document.createElement("div");
+            metaText.style.flex = "1";
+            metaText.appendChild(name);
+            metaText.appendChild(desc);
+            meta.appendChild(metaText);
+
+            card.appendChild(meta);
+            card.appendChild(actions);
+
+            // keyboard support: Enter opens
+            card.addEventListener("keydown", (ev) => {
+              if (ev.key === "Enter" || ev.key === " ") {
+                ev.preventDefault();
+                window.location.href = `mod.html?mod=${encodeURIComponent(mod.folder)}`;
+              }
+            });
+
+            // click on card opens mod
+            card.addEventListener("click", () => {
+              window.location.href = `mod.html?mod=${encodeURIComponent(mod.folder)}`;
+            });
+
+            grid.appendChild(card);
+          });
+        })
+        .catch(err => {
+          errorEl.textContent = "Błąd podczas ładowania danych: " + err.message;
+          errorEl.style.display = "block";
+        });
     });
-});
-</script>
+  </script>
+</body>
+</html>

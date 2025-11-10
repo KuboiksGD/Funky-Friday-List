@@ -1,0 +1,36 @@
+[
+  {
+    "mod": "Vs. Whitty",
+    "folder": "Vs.Whitty",
+    "description": "Eksplodujący klasyk z Ballisticem",
+    "color": "#ff4d4d",
+    "icon": "💥",
+    "songs": [
+      { "title": "Ballistic", "file": "Ballistic.json", "difficulty": "Extreme" },
+      { "title": "Lo-Fight", "file": "Lo-Fight.json", "difficulty": "Hard" },
+      { "title": "Overhead", "file": "Overhead.json", "difficulty": "Hard" }
+    ]
+  },
+  {
+    "mod": "Indie Cross",
+    "folder": "IndieCross",
+    "description": "Sans, Cuphead i Bendy w jednym modzie",
+    "color": "#ffcc00",
+    "icon": "🎮",
+    "songs": [
+      { "title": "Sansational", "file": "Sansational.json", "difficulty": "Medium" },
+      { "title": "Last Reel", "file": "LastReel.json", "difficulty": "Hard" }
+    ]
+  },
+  {
+    "mod": "Funky Classics",
+    "folder": "FunkyClassics",
+    "description": "Kolekcja klasycznych piosenek z FNF",
+    "color": "#7be495",
+    "icon": "🎵",
+    "songs": [
+      { "title": "Fresh", "file": "Fresh.json", "difficulty": "Easy" },
+      { "title": "Dad Battle", "file": "DadBattle.json", "difficulty": "Medium" }
+    ]
+  }
+]

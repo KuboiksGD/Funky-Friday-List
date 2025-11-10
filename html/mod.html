@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Funky Friday List — Mod</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header" role="banner" style="padding-bottom:0.6rem;">
+    <div class="container" style="display:flex;align-items:center;gap:1rem;justify-content:space-between;">
+      <div style="display:flex;flex-direction:column;">
+        <a href="index.html" class="btn secondary" style="padding:.35rem .6rem;font-size:.9rem;">← Powrót</a>
+      </div>
+      <div style="flex:1;text-align:center;">
+        <h1 id="mod-title" style="margin:0.25rem 0;">Mod</h1>
+        <p id="mod-desc" class="text-muted" style="margin:0.25rem 0 0;"></p>
+      </div>
+      <div style="width:72px;"></div>
+    </div>
+  </header>
+
+  <main class="container" role="main" style="padding-top:1rem;">
+    <div id="song-grid" class="mod-grid" aria-live="polite"></div>
+    <div id="error" class="center text-muted" style="display:none;margin-top:1.5rem;"></div>
+  </main>
+
+  <footer class="center" role="contentinfo" style="padding:1rem 0;">
+    <small class="text-muted">Made by Kuboiks</small>
+  </footer>
+
+  <script>
+    // Pobiera parametr z URL
+    function getParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    // Mapowanie trudności na klasy badge
+    function difficultyClass(diff) {
+      if (!diff) return "badge medium";
+      const d = diff.toLowerCase();
+      if (d.includes("easy")) return "badge easy";
+      if (d.includes("medium")) return "badge medium";
+      if (d.includes("hard")) return "badge hard";
+      if (d.includes("extreme") || d.includes("demon")) return "badge extreme";
+      return "badge medium";
+    }
+
+    // Sortowanie zgłoszeń: accuracy desc, potem data asc
+    function sortSubmissions(subs) {
+      return subs.slice().sort((a, b) => {
+        if ((b.accuracy || 0) !== (a.accuracy || 0)) return (b.accuracy || 0) - (a.accuracy || 0);
+        const da = a.date ? new Date(a.date) : new Date(0);
+        const db = b.date ? new Date(b.date) : new Date(0);
+        return da - db;
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const folder = getParam("mod");
+      const grid = document.getElementById("song-grid");
+      const errorEl = document.getElementById("error");
+      const titleEl = document.getElementById("mod-title");
+      const descEl = document.getElementById("mod-desc");
+
+      if (!folder) {
+        errorEl.textContent = "Nie podano moda. Wróć do strony głównej i wybierz moda.";
+        errorEl.style.display = "block";
+        return;
+      }
+
+      fetch("data/mods.json")
+        .then(res => {
+          if (!res.ok) throw new Error("Nie można załadować data/mods.json");
+          return res.json();
+        })
+        .then(mods => {
+          const mod = mods.find(m => m.folder === folder);
+          if (!mod) {
+            errorEl.textContent = `Nie znaleziono moda: ${folder}`;
+            errorEl.style.display = "block";
+            return;
+          }
+
+          // Ustaw nagłówek
+          titleEl.textContent = mod.mod;
+          descEl.textContent = mod.description || "";
+
+          // Dla każdego utworu stwórz kafelek
+          mod.songs.forEach(song => {
+            const card = document.createElement("div");
+            card.className = "mod-card";
+            card.tabIndex = 0;
+            card.setAttribute("role", "group");
+            card.setAttribute("aria-label", `Piosenka ${song.title}`);
+
+            // Górna część: meta
+            const meta = document.createElement("div");
+            meta.className = "mod-meta";
+
+            const icon = document.createElement("div");
+            icon.className = "mod-icon";
+            icon.textContent = (mod.icon || mod.mod.charAt(0)).toString().slice(0,2);
+            if (mod.color) {
+              icon.style.background = `linear-gradient(135deg, ${mod.color}33, ${mod.color}1a)`;
+            }
+
+            const metaText = document.createElement("div");
+            metaText.style.flex = "1";
+
+            const name = document.createElement("div");
+            name.className = "mod-name";
+            name.textContent = song.title;
+
+            const desc = document.createElement("div");
+            desc.className = "mod-desc";
+            desc.textContent = `Plik: ${song.file} • Trudność: ${song.difficulty || "—"}`;
+
+            metaText.appendChild(name);
+            metaText.appendChild(desc);
+
+            meta.appendChild(icon);
+            meta.appendChild(metaText);
+
+            // Dolna część: akcje i podgląd top submitu
+            const actions = document.createElement("div");
+            actions.className = "mod-actions";
+
+            const left = document.createElement("div");
+            left.style.display = "flex";
+            left.style.gap = "0.5rem";
+            left.style.alignItems = "center";
+
+            const badge = document.createElement("span");
+            badge.className = difficultyClass(song.difficulty);
+            badge.textContent = song.difficulty || "Unknown";
+
+            left.appendChild(badge);
+
+            const preview = document.createElement("div");
+            preview.className = "text-muted";
+            preview.style.fontSize = ".9rem";
+            preview.style.marginLeft = ".5rem";
+            preview.textContent = "Ładowanie zgłoszeń...";
+
+            left.appendChild(preview);
+
+            const right = document.createElement("div");
+            right.style.display = "flex";
+            right.style.gap = ".5rem";
+
+            const rankBtn = document.createElement("button");
+            rankBtn.className = "btn";
+            rankBtn.textContent = "Ranking";
+            rankBtn.addEventListener("click", () => {
+              const url = `song.html?mod=${encodeURIComponent(folder)}&file=${encodeURIComponent(song.file)}&title=${encodeURIComponent(song.title)}`;
+              window.location.href = url;
+            });
+
+            const submitBtn = document.createElement("button");
+            submitBtn.className = "btn secondary";
+            submitBtn.textContent = "Submit";
+            submitBtn.addEventListener("click", () => {
+              const url = `song.html?mod=${encodeURIComponent(folder)}&file=${encodeURIComponent(song.file)}&title=${encodeURIComponent(song.title)}#submit`;
+              window.location.href = url;
+            });
+
+            right.appendChild(submitBtn);
+            right.appendChild(rankBtn);
+
+            actions.appendChild(left);
+            actions.appendChild(right);
+
+            card.appendChild(meta);
+            card.appendChild(actions);
+
+            // Pobierz plik piosenki, aby wyświetlić top submit
+            const songPath = `data/songs/${encodeURIComponent(folder)}/${encodeURIComponent(song.file)}`;
+            fetch(songPath)
+              .then(r => {
+                if (!r.ok) throw new Error("Brak pliku piosenki");
+                return r.json();
+              })
+              .then(songData => {
+                const subs = Array.isArray(songData.submissions) ? songData.submissions : (songData.records || []);
+                if (!subs || subs.length === 0) {
+                  preview.textContent = "Brak zgłoszeń";
+                } else {
+                  const sorted = sortSubmissions(subs);
+                  const top = sorted[0];
+                  const acc = top.accuracy !== undefined ? `${top.accuracy}%` : (top.percent !== undefined ? `${top.percent}%` : "—");
+                  const user = top.user || top.player || top.name || "Anon";
+                  preview.textContent = `Top: ${user} • ${acc}`;
+                }
+              })
+              .catch(() => {
+                preview.textContent = "Brak danych piosenki";
+              });
+
+            // Klawiatura: Enter otwiera ranking
+            card.addEventListener("keydown", (ev) => {
+              if (ev.key === "Enter" || ev.key === " ") {
+                ev.preventDefault();
+                rankBtn.click();
+              }
+            });
+
+            // Kliknięcie na kafelek otwiera ranking
+            card.addEventListener("click", () => rankBtn.click());
+
+            grid.appendChild(card);
+          });
+        })
+        .catch(err => {
+          errorEl.textContent = "Błąd podczas ładowania danych: " + err.message;
+          errorEl.style.display = "block";
+        });
+    });
+  </script>
+</body>
+</html>
