@@ -1,0 +1,28 @@
+<main id="mod-list">
+  <!-- Kafelki modów -->
+</main>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("mods.json")
+    .then(res => res.json())
+    .then(mods => {
+      const container = document.getElementById("mod-list");
+
+      mods.forEach(mod => {
+        const card = document.createElement("div");
+        card.className = "mod-card";
+        card.onclick = () => {
+          window.location.href = `mod.html?mod=${encodeURIComponent(mod.folder)}`;
+        };
+
+        card.innerHTML = `
+          <div class="mod-name">${mod.mod}</div>
+          <div class="mod-description">${mod.description || "Mod z Funky Friday"}</div>
+        `;
+
+        container.appendChild(card);
+      });
+    });
+});
+</script>

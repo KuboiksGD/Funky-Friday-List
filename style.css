@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 2em;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #ff4d4d;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.mod-card {
+  background-color: #222;
+  border: 2px solid #444;
+  border-radius: 12px;
+  width: 250px;
+  height: 150px;
+  padding: 1em;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mod-card:hover {
+  transform: scale(1.05);
+  border-color: #ff4d4d;
+}
+
+.mod-name {
+  font-size: 1.4em;
+  color: #ffcc00;
+  margin-bottom: 0.5em;
+}
+
+.mod-description {
+  font-size: 0.9em;
+  color: #aaa;
+}
