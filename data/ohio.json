@@ -1,0 +1,18 @@
+{
+    "id": 122247888,
+    "name": "Ohio",
+    "author": "polarowy",
+    "creators": ["polarowy"],
+    "verifier": "polarowy",
+    "verification": "https://www.youtube.com/watch?v=Xxh1k2yMnUs",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+              {
+            "user": "beli",
+            "link": "https://youtu.be/mtYcyYvOxfA?si=K-C1q-fkhScqAi70",
+            "percent": 100,
+            "hz": 144
+        } 
+    ]
+}

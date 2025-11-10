@@ -1,0 +1,23 @@
+{
+    "id": 89922609,
+    "name": "Cichy Mariusz",
+    "author": "Cinasek",
+    "creators": [],
+    "verifier": "Cinasek",
+    "verification": "https://www.youtube.com/watch?v=7sXJGi8s-3I",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=Y10fynKUEyc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "BartoszGD",
+            "link": "https://www.youtube.com/watch?v=1TU09-cK-nw",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}    

@@ -1,0 +1,30 @@
+{
+    "id": 118833922,
+    "name": "Pupg Mobile",
+    "author": "FranekGMD",
+    "creators": ["FranekGMD"],
+    "verifier": "FranekGMD",
+    "verification": "https://youtu.be/UAGZc0CXua0",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        },
+                 {
+            "user": "BartoszGD",
+            "link": "https://youtu.be/Lc4lbLemG10",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=4m3csFJYBtY",
+            "percent": 100,
+            "hz": 180
+        }
+    ]
+}

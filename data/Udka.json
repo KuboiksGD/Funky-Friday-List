@@ -1,0 +1,18 @@
+{
+    "id": 127555849,
+    "name": "udka femboya",
+    "author": "Komet01",
+    "creators": ["Komet01"],
+    "verifier": "Komet01",
+    "verification": "https://www.youtube.com/watch?v=C-x90rw-sKc",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=c8ohPhG3QSI",
+            "percent": 100,
+            "hz": 1080
+        }    
+    ]
+}

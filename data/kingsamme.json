@@ -1,0 +1,30 @@
+{
+    "id": 121115559,
+    "name": "Kingsamme challenge",
+    "author": "FranekGMD",
+    "creators": ["FranekGMD"],
+    "verifier": "FranekGMD",
+    "verification": "https://youtu.be/hoC1rzZJofE",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+           {
+            "user": "beli",
+            "link": "https://youtu.be/HC6Q14b4sW0?si=6d01Evs6SR66MMMi",
+            "percent": 100,
+            "hz": 144
+        },
+         {
+            "user": "Krzak",
+            "link": "https://youtu.be/u0j1SW7PZJs",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=j36nq-Nv1eU",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}

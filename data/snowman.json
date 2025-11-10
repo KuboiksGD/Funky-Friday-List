@@ -1,0 +1,66 @@
+{
+    "id": 121128834,
+    "name": "spcl snowman",
+    "author": "polarowy",
+    "creators": ["polarowy"],
+    "verifier": "polarowy",
+    "verification": "https://www.youtube.com/watch?v=A1tco0sxvgo",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "yen",
+            "link": "https://youtu.be/IVPAFIkstHg",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "beli",
+            "link": "https://youtu.be/HC6Q14b4sW0?si=6d01Evs6SR66MMMi",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "gawlyx",
+            "link": "https://youtu.be/eDVKCGV5xWM",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "IkukGD",
+            "link": "https://youtu.be/rPSaF5XcmFU",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/hmXOoFwsMqg",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=q6uprae4Qw8",
+            "percent": 100,
+            "hz": 1080
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Ozonek",
+            "link": "https://www.youtube.com/watch?v=RsNIT-oLACc",
+            "percent": 100,
+            "hz": 180
+        },
+          {
+            "user": "BartoszGD",
+            "link": "https://youtu.be/Lc4lbLemG10",
+            "percent": 100,
+            "hz": 180
+        }
+    ]
+}

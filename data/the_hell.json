@@ -1,0 +1,19 @@
+{
+    "id": 120973170,
+    "name": "THE HELL",
+    "author": "polarowy",
+    "creators": ["polarowy"],
+    "verifier": "polarowy",
+    "verification": "https://www.youtube.com/watch?v=qDSh7kT6yoU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+
+        {
+            "user": "beli",
+            "link": "https://www.youtube.com/watch?v=5H1EohWIjPo",
+            "percent": 100,
+            "hz": 288
+        } 
+    ]
+}

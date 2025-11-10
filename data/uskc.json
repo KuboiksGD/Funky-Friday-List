@@ -1,0 +1,18 @@
+{
+    "id": 127270165,
+    "name": "Uskc Ahh Spam",
+    "author": "FranekGMD",
+    "creators": ["FranekGMD"],
+    "verifier": "FranekGMD",
+    "verification": "https://www.youtube.com/watch?v=pcznB6rXu7E",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+    {
+            "user": "Ozonek",
+            "link": "https://www.youtube.com/watch?v=gjWtyKv1328",
+            "percent": 100,
+            "hz": 240
+    }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": 121496479,
+    "name": "chilzZ wave",
+    "author": "yen",
+    "creators": ["yen"],
+    "verifier": "yen",
+    "verification": "https://www.youtube.com/watch?v=lgdzud87osU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "polarowy",
+            "link": "https://www.youtube.com/watch?v=_DPwt1rgW3Y",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "beli",
+            "link": "https://www.youtube.com/watch?v=5H1EohWIjPo",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

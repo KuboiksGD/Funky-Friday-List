@@ -1,0 +1,54 @@
+{
+    "id": 120829042,
+    "name": "Spiders",
+    "author": "bartczłek",
+    "creators": ["bartczłek"],
+    "verifier": "bartczłek",
+    "verification": "https://youtu.be/AHBugaedvyA",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [ 
+        {
+            "user": "Krzak",
+            "link": "https://youtu.be/qea5wWAZfmU",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "polarowy",
+            "link": "https://www.youtube.com/watch?v=elGKKbsP2_8",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "beli",
+            "link": "https://youtu.be/HC6Q14b4sW0?si=6d01Evs6SR66MMMi",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "yen",
+            "link": "https://youtu.be/ot17N5Xk3wU",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "gawlyx",
+            "link": "https://youtu.be/X7cqyE_ksNE",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+           {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=uPuPPj5Lkwc",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

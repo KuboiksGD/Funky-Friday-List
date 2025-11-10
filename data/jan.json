@@ -1,0 +1,36 @@
+{
+    "id": 120411631,
+    "name": "Jan Schilling",
+    "author": "bartczłek",
+    "creators": ["bartczłek"],
+    "verifier": "FranekGMD",
+    "verification": "https://youtu.be/G3Ulj2v_gh8",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+         {
+            "user": "Krzak",
+            "link": "https://youtu.be/XvRs0VUUILY",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "yen",
+            "link": "https://youtu.be/7oTPiYvhVls",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "beli",
+            "link": "https://www.youtube.com/watch?v=5H1EohWIjPo",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=F0b1n24JJTE",
+            "percent": 100,
+            "hz": 165
+        }
+    ]
+}

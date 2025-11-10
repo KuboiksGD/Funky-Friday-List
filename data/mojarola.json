@@ -1,0 +1,23 @@
+{
+    "id": 63112777,
+    "name": "My part in hardbass",
+    "author": "Cinasek",
+    "creators": [],
+    "verifier": "Cinasek",
+    "verification": "https://www.youtube.com/watch?v=7sXJGi8s-3I",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=aa5aVH2xhQ0",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "BartoszGD",
+            "link": "https://www.youtube.com/watch?v=e1G5GMt22KA",
+            "percent": 100,
+            "hz": 480
+        }
+    ]
+}    

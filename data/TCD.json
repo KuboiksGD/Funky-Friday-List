@@ -1,0 +1,18 @@
+{
+    "id": 124114174,
+    "name": "TCD Challenge",
+    "author": "FranekGMD",
+    "creators": ["FranekGMD"],
+    "verifier": "FranekGMD",
+    "verification": "https://www.youtube.com/watch?v=cCNd1eE3pbY",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": 122351247,
+    "name": "Ultra Floke",
+    "author": "yen",
+    "creators": ["Yen"],
+    "verifier": "yen",
+    "verification": "https://youtu.be/z_BN-58dXRU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Mateusz001",
+            "link": "www.youtube.com/watch?v=rkH3b2cphTA&pp=0gcJCb4JAYcqIYzv",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

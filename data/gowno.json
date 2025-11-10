@@ -1,0 +1,24 @@
+{
+    "id": 127204314,
+    "name": "gównoscapes",
+    "author": "mix3rrr :3",
+    "creators": ["mix3rrr :3"],
+    "verifier": "mix3rrr :3",
+    "verification": "https://youtu.be/kER6-ken84A",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "bumper",
+            "link": "https://www.youtube.com/watch?v=1arm60MQlRE",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

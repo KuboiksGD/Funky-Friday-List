@@ -1,0 +1,17 @@
+.search {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(38, 38, 38, 1);
+}

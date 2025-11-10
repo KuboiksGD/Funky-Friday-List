@@ -1,0 +1,60 @@
+{
+    "id": 121173668,
+    "name": "kuzyn trials",
+    "author": "beli",
+    "creators": ["kuzyn beliego"],
+    "verifier": "beli",
+    "verification": "https://youtu.be/uHCpxoaLmIY?si=TeWRGuNORvaqNhor",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+      {
+            "user": "yen",
+            "link": "https://youtu.be/-925-ZzEBOk",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "krzak",
+            "link": "https://youtu.be/HhPRCdxH_Ng",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "polarowy",
+            "link": "https://www.youtube.com/watch?v=dc-7N6oKogs",
+            "percent": 100,
+            "hz": 240
+        },
+         {
+            "user": "Mateusz001",
+            "link": "https://www.youtube.com/watch?v=Z18e00iUO8U",
+            "percent": 100,
+            "hz": 60
+        },
+         {
+            "user": "Kolib24",
+            "link": "https://youtu.be/jGw-jA2X2iQ",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Bumpernikielek",
+            "link": "https://www.youtube.com/watch?v=DjhMxy5lnt8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

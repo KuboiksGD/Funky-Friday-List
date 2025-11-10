@@ -1,0 +1,42 @@
+{
+    "id": 122117500,
+    "name": "Pringles",
+    "author": "yen",
+    "creators": ["yen"],
+    "verifier": "yen",
+    "verification": "https://youtu.be/gi7fVv1hOfw",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "gawlyx",
+            "link": "https://youtu.be/0YUZOySfSjA",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "polarowy",
+            "link": "https://www.youtube.com/watch?v=eavDe6GxoBs",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "beli",
+            "link": "https://www.youtube.com/watch?v=WgoqPwTReEU",
+            "percent": 100,
+            "hz": 288
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

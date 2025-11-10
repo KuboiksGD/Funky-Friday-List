@@ -1,0 +1,24 @@
+{
+    "id": 89545998,
+    "name": "Pingwin Nie Wbije",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://www.youtube.com/watch?v=FWISct0cUMU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=GyzddH_lUE8",
+            "percent": 100,
+            "hz": 165
+        },
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/XPZ2Hm1A1r0",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}

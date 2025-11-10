@@ -1,0 +1,42 @@
+{
+    "id": 121167357,
+    "name": "aeral gleam",
+    "author": "beli",
+    "creators": ["beli"],
+    "verifier": "beli",
+    "verification": "https://youtu.be/JCQDyw9f1JI?si=k6oDvV7f9PvkNpUY",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "yen",
+            "link": "https://www.youtube.com/watch?v=IVPAFIkstHg",
+            "percent": 100,
+            "hz": 144
+        },
+         {
+            "user": "gawlyx",
+            "link": "https://youtu.be/0CzTeJCTyX0",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "polarowy",
+            "link": "https://www.youtube.com/watch?v=GjeZQZSwsTo",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

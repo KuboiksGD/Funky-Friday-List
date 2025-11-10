@@ -1,0 +1,18 @@
+{
+    "id": 120952920,
+    "name": "Shitty guwno",
+    "author": "Krzak",
+    "creators": ["Krzak"],
+    "verifier": "Krzak",
+    "verification": "https://youtu.be/Lgka8B-rzqk",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "beli",
+            "link": "https://youtu.be/nfBWSfZt44A?si=dlmqBE-lwGrccODx",
+            "percent": 100,
+            "hz": 144
+        }    
+    ]
+}

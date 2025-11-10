@@ -1,0 +1,18 @@
+{
+    "id": 121389047,
+    "name": "Snacki popcornowe",
+    "author": "mix3rrr :3",
+    "creators": ["mix3rrr :3"],
+    "verifier": "mix3rrr :3",
+    "verification": "https://www.youtube.com/watch?v=D4vGF5DZ8BM",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=OwGsOGoO1kE",
+            "percent": 100,
+            "hz": 165
+        }
+    ]
+}

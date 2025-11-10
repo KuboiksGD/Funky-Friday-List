@@ -1,0 +1,18 @@
+{
+    "id": 119038668,
+    "name": "Kiszka Lublana",
+    "author": "polarowy",
+    "creators": ["polarowy"],
+    "verifier": "polarowy",
+    "verification": "https://www.youtube.com/watch?v=ihFnyY6UumM",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/fGFRVrhivos",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

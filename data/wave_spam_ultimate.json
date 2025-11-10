@@ -1,0 +1,30 @@
+{
+    "id": 122875207,
+    "name": "Wave Spam Ultimate",
+    "author": "Mateusz001",
+    "creators": ["Mateusz001"],
+    "verifier": "Mateusz001",
+    "verification": "https://youtu.be/wvKmQAsM9T8?si=OXBkrb0RHUnBGJ4x",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        },
+              {
+            "user": "beli",
+            "link": "https://youtu.be/mtYcyYvOxfA?si=K-C1q-fkhScqAi70",
+            "percent": 100,
+            "hz": 144
+        } 
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": 121647525,
+    "name": "I HATE FEMBOYS",
+    "author": "Krzak",
+    "creators": ["Krzak"],
+    "verifier": "Krzak",
+    "verification": "https://youtu.be/Sldc-DSEjWs",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [ 
+                      {
+            "user": "beli",
+            "link": "https://youtu.be/mtYcyYvOxfA?si=K-C1q-fkhScqAi70",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/AJKMa8Je1Oo",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "bumper",
+            "link": "https://www.youtube.com/watch?v=9ScCWnxmpPk",
+            "percent": 100,
+            "hz": 144
+        } 
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": 127379652,
+    "name": "Schabek Challange",
+    "author": "Krzak",
+    "creators": ["Krzak"],
+    "verifier": "Krzak",
+    "verification": "https://youtu.be/kx0h7IKmPOs",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/lVoS1sxVDtM",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=VUwpI5_L0JU",
+            "percent": 100,
+            "hz": 165
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        },
+                  {
+            "user": "BartoszGD",
+            "link": "https://youtu.be/Lc4lbLemG10",
+            "percent": 100,
+            "hz": 180
+        }
+    ]
+}

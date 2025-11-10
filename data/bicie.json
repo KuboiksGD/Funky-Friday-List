@@ -1,0 +1,30 @@
+{
+    "id": 127138141,
+    "name": "bicie serca",
+    "author": "mix3rrr :3",
+    "creators": ["mix3rrr :3"],
+    "verifier": "mix3rrr :3",
+    "verification": "https://youtu.be/sLADRMVzWtA",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+          {
+            "user": "IkukGD",
+            "link": "https://youtu.be/JFC38PIIGQw",
+            "percent": 100,
+            "hz": 144
+        },
+              {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/HB_yNWMv-y0",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=1xEiqOULnlg",
+            "percent": 100,
+            "hz": 165
+        }
+    ]
+}

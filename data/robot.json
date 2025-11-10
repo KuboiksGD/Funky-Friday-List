@@ -1,0 +1,18 @@
+{
+    "id": 123321483,
+    "name": "Robotchief",
+    "author": "beli",
+    "creators": ["beli"],
+    "verifier": "beli",
+    "verification": "https://youtu.be/cFHZ72ZrWfg?si=Fl2HRKjFzmg3-Xkv",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=2lYsIr2-ay4",
+            "percent": 100,
+            "hz": 1080
+        }
+    ]
+}

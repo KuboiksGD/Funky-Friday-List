@@ -1,0 +1,37 @@
+{
+    "id": 121175504,
+    "name": "beli9002 prelude",
+    "author": "beli",
+    "creators": ["beli & nikodem[STUPID]"],
+    "verifier": "beli",
+    "verification": "https://youtu.be/ZSXvM-tJ4fs?si=cxJB_FkDa6Rq90s0",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+              {
+            "user": "mix3rrr :3",
+            "link": "https://youtu.be/nfBWSfZt44A?si=dlmqBE-lwGrccODx",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/XtC1nZqlBV0",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Miłek",
+            "link": "https://youtu.be/9V4nae1Qfo4",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=yLgZBThwgJE",
+            "percent": 100,
+            "hz": 165
+        }
+
+    ]
+}

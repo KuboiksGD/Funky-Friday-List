@@ -1,0 +1,36 @@
+{
+    "id": 122287202,
+    "name": "Balls 3",
+    "author": "yen",
+    "creators": ["Yen"],
+    "verifier": "yen",
+    "verification": "https://www.youtube.com/watch?v=wnzSTGjCca0",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "beli",
+            "link": "https://youtu.be/nfBWSfZt44A?si=dlmqBE-lwGrccODx",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Bumpernikielek",
+            "link": "https://www.youtube.com/watch?v=DjhMxy5lnt8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

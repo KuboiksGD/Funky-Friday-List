@@ -1,0 +1,23 @@
+[
+    {
+        "role": "owner",
+        "name": "Krzak",
+        "link": "https://www.youtube.com/@krzaczek1234"
+    },
+       {
+        "role": "owner",
+        "name": "SmileyGaming",
+        "link": "https://www.youtube.com/@Mix3rrr202"
+    },
+    {
+        "role": "dev",
+        "name": "Krzak",
+        "link": "https://www.youtube.com/@krzaczek1234"
+    },
+     {
+        "role": "admin",
+        "name": "Yen",
+        "link": "https://www.youtube.com/channel/UCYNQHRAVDaQj0sHjc1fzhyw"
+    }
+    
+]

@@ -1,0 +1,48 @@
+{
+    "id": 118643809,
+    "name": "Ufo Power",
+    "author": "polarowy",
+    "creators": ["polarowy"],
+    "verifier": "polarowy",
+    "verification": "https://www.youtube.com/watch?v=cGHW1zovh4M",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+              {
+            "user": "Krzak",
+            "link": "https://youtu.be/a8vsv6KwVuk",
+            "percent": 100,
+            "hz": 144
+        },
+         {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=zF1l9nO1ndk",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=OqQt38KQWbE",
+            "percent": 100,
+            "hz": 360
+        }, 
+        {
+            "user": "FranekGMD",
+            "link": "https://youtu.be/gzBHoanEhzQ",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        },
+                  {
+            "user": "BartoszGD",
+            "link": "https://youtu.be/Lc4lbLemG10",
+            "percent": 100,
+            "hz": 180
+        }
+    ]
+}

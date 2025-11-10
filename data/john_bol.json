@@ -1,0 +1,18 @@
+{
+    "id": 123219681,
+    "name": "john bol",
+    "author": "Bumpernikielek",
+    "creators": ["Bumpernikielek"],
+    "verifier": "Bumpernikielek",
+    "verification": "https://www.youtube.com/watch?v=jY4KblpCa-k",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=sfiEWo7VTcs",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

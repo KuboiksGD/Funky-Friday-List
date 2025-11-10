@@ -1,0 +1,36 @@
+{
+    "id": 122964013,
+    "name": "Snaczki Wavevowe",
+    "author": "Mateusz001",
+    "creators": ["Mateusz001"],
+    "verifier": "Mateusz001",
+    "verification": "https://youtu.be/ICLKDuStEvU?si=teGDOi86Yq5iqODB",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Blobik mlemowski",
+            "link": "https://www.youtube.com/watch?v=U0qvwdXyW1o",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Komet01",
+            "link": "https://www.youtube.com/watch?v=XmN9Pp87Syo",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Bumpernikielek",
+            "link": "https://www.youtube.com/watch?v=DjhMxy5lnt8",
+            "percent": 100,
+            "hz": 240
+        },
+              {
+            "user": "beli",
+            "link": "https://youtu.be/mtYcyYvOxfA?si=K-C1q-fkhScqAi70",
+            "percent": 100,
+            "hz": 144
+        } 
+    ]
+}

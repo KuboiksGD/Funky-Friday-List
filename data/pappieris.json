@@ -1,0 +1,18 @@
+{
+    "id": 83407925,
+    "name": "Pappieris challenge",
+    "author": "Cinasek",
+    "creators": ["Cinasek"],
+    "verifier": "Cinasek",
+    "verification": "https://www.youtube.com/watch?v=9OnV0UcisfU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Kuboiks",
+            "link": "https://www.youtube.com/watch?v=wiWDyM94Uds",
+            "percent": 100,
+            "hz": 165
+        }
+    ]
+}

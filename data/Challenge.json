@@ -1,0 +1,42 @@
+{
+    "id": 117252514,
+    "name": "Challenge",
+    "author": "FranekGMD",
+    "creators": ["FranekGMD"],
+    "verifier": "FranekGMD",
+    "verification": "https://www.youtube.com/watch?v=Qr-Ymj8TIyQ",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Cinasek",
+            "link": "https://www.youtube.com/watch?v=Oe703aeiQU4",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Ozonek",
+            "link": "https://www.youtube.com/watch?v=9iginfeVA6w",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "BartoszGD",
+            "link": "https://youtu.be/Lc4lbLemG10",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "szymek",
+            "link": "https://www.youtube.com/watch?v=iAxP5wtl6Vc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Gawlyx",
+            "link": "https://www.youtube.com/watch?v=TQth7Kk7XwE",
+            "percent": 100,
+            "hz": 488
+        }
+    ]
+}    
